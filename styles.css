@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #005f73;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0a9396;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #005f73;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003f4b;
+}
+
+.testimonial {
+    background: #e8f0f2;
+    border-left: 5px solid #005f73;
+    margin: 10px;
+    padding: 10px;
+    font-style: italic;
+}
+
+#vida-despues-de-la-muerte {
+    background: #cce3de;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
